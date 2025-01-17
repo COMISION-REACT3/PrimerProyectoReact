@@ -1,0 +1,17 @@
+h1, h2{
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+    margin: 5px;    
+}
+
+.fecha{
+    color: white;
+    text-align: center;
+    margin: 5px; 
+    font-size: 13px;   
+}
