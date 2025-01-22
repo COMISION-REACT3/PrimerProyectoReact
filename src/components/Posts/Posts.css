@@ -1,0 +1,75 @@
+/* General styles for the container */
+.post-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+    justify-content: center;
+   
+  }
+  
+  /* Styles for each card */
+  .post-card {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    width: calc(33.333% - 32px);
+    box-sizing: border-box;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+  }
+  
+  /* Card hover effect */
+  .post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Title styling */
+  .post-card h2 {
+    font-size: 1.2rem;
+    color: #333333;
+    margin-bottom: 8px;
+  }
+  
+  /* Body styling */
+  .post-card p {
+    font-size: 1rem;
+    color: #666666;
+    line-height: 1.5;
+  }
+
+    /* Botón para cargar posts */
+.fetch-button {
+  display: block;
+  margin: 16px auto;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #124f91;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bolder;
+}
+
+.fetch-button:hover {
+  background-color: #0056b3;
+}
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .post-card {
+      width: calc(50% - 16px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .post-card {
+      width: 100%;
+    }
+  }
+  

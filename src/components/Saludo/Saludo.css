@@ -15,3 +15,21 @@ p{
     margin: 5px; 
     font-size: 13px;   
 }
+
+.btn-cambiar-saludo {
+    display: block; 
+    margin: 1rem auto; 
+    padding: 0.5rem 1rem;
+    background-color: #194e86;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bolder;
+  }
+  
+  .btn-cambiar-saludo:hover {
+    background-color: #1d3e63;
+  }

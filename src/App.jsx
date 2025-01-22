@@ -1,8 +1,5 @@
 import './App.css';
-import Saludo from './components/Saludo';
-import TarjetaPresentacion from './components/TarjetaPresentacion';
-
-
+import {Posts, Saludo, TarjetaPresentacion} from './components'
 
 function App() {
 
@@ -36,6 +33,7 @@ function App() {
         ocupacion="Desarrollador Web"
         imagen="https://lh3.googleusercontent.com/a/ACg8ocJKKwp2qcE9QRnqEOnxGYgPKzaYYSa31m5adG3uASxSlMZzbQ4G=s360-c-no"
       />
+      <Posts/>
     </div>
   )
 }
